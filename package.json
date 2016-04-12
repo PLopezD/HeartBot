@@ -1,0 +1,49 @@
+{
+  "name": "heartbot",
+  "version": "1.0.0",
+  "description": "an slackbot to react to everything with hearts",
+  "keywords": [
+    "Slack",
+    "bot",
+    "heart",
+    "jokes"
+  ],
+  "main": "bin/bot.js",
+  "bin": {
+    "heartbot": "bot.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLopezD/HeartBot.git"
+  },
+  "author": "Pablo Lopez Domowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PLopezD/HeartBot/issues"
+  },
+  "homepage": "https://github.com/PLopezD/HeartBot#readme",
+  "dependencies": {
+    "async": "^1.4.1",
+    "progress": "^1.1.8",
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.0.10"
+  },
+  "devDependencies": {
+    "xo": "^0.5.2"
+  },
+  "xo": {
+    "space": 4,
+    "rules": {
+      "camelcase": [
+        2,
+        {
+          "properties": "never"
+        }
+      ]
+    }
+  }
+}
