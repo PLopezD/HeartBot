@@ -17,7 +17,6 @@ var name = process.env.BOT_NAME;
 
 var heartbot = new HeartBot({
     token: token,
-    dbPath: dbPath,
     name: name
 });
 
